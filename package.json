@@ -1,0 +1,19 @@
+{
+  "name": "csrf",
+  "version": "1.0.0",
+  "description": "Example of CSRF protection using Cookie-Parser and CSURF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexggp/csrf.git"
+  },
+  "author": "Alejandro García-Gasco Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexggp/csrf/issues"
+  },
+  "homepage": "https://github.com/Alexggp/csrf#readme"
+}
