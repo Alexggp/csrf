@@ -35,7 +35,7 @@ $ npm install
 $ npm start
 ```
 
-This will start the server in por 3000. After that, you just have to access to the main html in the server:
+This will start the server in por 3000. After that, you just have to access to the main html in the browser:
 
 ```sh
  localhost:3000
