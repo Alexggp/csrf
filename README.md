@@ -45,7 +45,10 @@ Two buttons will be shown, two make several POST calls. So you would see that th
 
 
 
-**by [Alejandro G-G Pérez]**
+**by Alejandro G-G Pérez**
+* [LinkedIn]
+* [GitHub]
+ 
 
 
 
@@ -53,4 +56,5 @@ Two buttons will be shown, two make several POST calls. So you would see that th
 
    [node.js]: <http://nodejs.org>
    [express]: <http://expressjs.com>
-   [Alejandro G-G Pérez]:  <https://www.linkedin.com/in/alejandro-garc%C3%ADa-gasco-p%C3%A9rez-919265132/>
+   [LinkedIn]:  <https://www.linkedin.com/in/alejandro-garc%C3%ADa-gasco-p%C3%A9rez-919265132/>
+   [GitHub]: <https://github.com/Alexggp/>
