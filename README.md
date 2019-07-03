@@ -38,10 +38,10 @@ $ npm start
 This will start the server in por 3000. After that, you just have to access to the main html in the browser:
 
 ```sh
- localhost:3000
+ localhost:3000/
 ```
 
-Two buttons will be shown, two make several POST calls. So you would see that the POST call with cookie is successful but the POST without cookie recieves a 403 response.
+Two buttons will be shown, to make several POST calls. So you would see that the POST call with cookie is successful but the POST without cookie recieves a 403 response.
 
 
 
