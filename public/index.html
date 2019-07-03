@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./index.js"></script>
+  <style>
+    body{
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .button {
+      border: 5px solid #807cbf;
+      width: auto;
+      display: inline-block;
+      margin: 10px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <h1>CSRF Example</h1>
+
+  <p>
+    This example shows how to set a csrf cookie in static resources from an API and how to send the <br>
+    token to the server again to allow REST transactions.<br>
+
+    As seeng below, the POST call with cookie is successful but the POST without cookie recieves a 403 response. 
+
+  </p>
+
+  <div id="responses"></div>
+</body>
+</html>

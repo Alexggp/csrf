@@ -4,6 +4,7 @@
   "description": "Example of CSRF protection using Cookie-Parser and CSURF",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Alexggp/csrf/issues"
   },
-  "homepage": "https://github.com/Alexggp/csrf#readme"
+  "homepage": "https://github.com/Alexggp/csrf#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "csurf": "^1.10.0",
+    "express": "^4.17.1"
+  }
 }
