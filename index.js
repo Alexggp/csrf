@@ -4,7 +4,14 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const PORT = 3000;
 // setup route middlewares
-const csrfProtection = csrf({ cookie: true });
+const csrfProtection = csrf({
+  cookie: {
+    path: '/',
+    domain: 'localhost',
+    httpOnly: true,
+    sameSite: true
+  }
+});
 const parseForm = bodyParser.urlencoded({ extended: false });
 
 // create express app
@@ -18,7 +25,7 @@ app.use(csrfProtection);
 function attach_cookie(url) {
   return function(req, res, next) {
     if (req.url == url) {
-      res.cookie('CSRF-TOKEN', req.csrfToken())
+      res.cookie('csrf-token', req.csrfToken())
     }
     next();
   }

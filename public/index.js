@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   //Takin the token located in the crsf cookie
   const cookies = getCookies();
-  const token = cookies['CSRF-TOKEN'];
+  const token = cookies['csrf-token'];
   console.log(token);
 
 
